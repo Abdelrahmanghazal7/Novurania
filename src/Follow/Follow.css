@@ -44,7 +44,8 @@
 @media (max-width: 992px) {
 
   #follow .slick-slider {
-    left: 40px;
+    left: 13px;
+    margin:0 30px;
   }
 
   .contact-1 .i {

@@ -16,8 +16,8 @@ const Counter = () => {
         </div>
       </div>
 
-      <div className="accordion-menu wow fadeInDown">
-        <ul>
+      <div className="accordion-menu">
+        <ul className="wow fadeInDown">
           <li>
             <input type="checkbox" defaultChecked />
             <button>
