@@ -1,0 +1,134 @@
+#about {
+  overflow: hidden;
+}
+
+.sec-1 {
+  text-align: center;
+  padding-bottom: 200px;
+  padding-top: 100px;
+}
+
+.sec-1 h1 {
+  font-size: 40px;
+  padding: 30px 0;
+}
+
+.sec-1 p {
+  margin-bottom: -20px;
+  color: #3b3b1e;
+  letter-spacing: 2px;
+}
+
+.follow-1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.follow-1 p {
+  white-space: nowrap;
+  padding: 0 30px;
+  margin-top: -10px;
+  color: #3b3b1e;
+}
+
+.sec-1-detail {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.video-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.video-1 img {
+  width: 100%;
+  height: auto;
+}
+
+.about {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: start;
+}
+
+.about p {
+  max-width: 300px;
+  font-size: 15px;
+  margin: 0 10px;
+  position: relative;
+  left: -40px;
+  color: #3b3b1e;
+  letter-spacing: 0;
+}
+
+.sec-1 button {
+  position: relative;
+  left: 70px;
+  top: -40px;
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.sec-1-arrow button:hover {
+  background-color: #000;
+  border: #000;
+}
+
+.sec-1-arrow .i {
+  color: #000;
+  font-size: 20px;
+}
+
+.sec-1-arrow button:hover .i {
+  color: #adadad;
+}
+
+@media screen and (max-width: 960px) {
+
+  .sec-1-detail {
+    font-size: 15px;
+  }
+
+  .sec-1 .video-1 {
+    height: 250px;
+  }
+
+  .about {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about p {
+    max-width: 300px;
+    font-size: 15px;
+    margin: 20px 0;
+    position: relative;
+    left: 0;
+  }
+
+  .sec-1-arrow {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    left: -65px;
+  }
+
+  .sec-1-arrow p {
+    letter-spacing: 5px;
+  }
+
+  .sec-1 button {
+    left: 40px;
+    top: 0;
+  }
+}

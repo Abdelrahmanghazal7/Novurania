@@ -1,0 +1,187 @@
+footer {
+  background-color: #191a25;
+  padding-top: 50px;
+  overflow: hidden;
+}
+
+.pref-first {
+  color: #dbdbdb;
+}
+
+.final-img {
+  width: 200px;
+  padding-bottom: 10px;
+}
+
+.passion {
+  max-width: 300px;
+}
+
+.ways {
+  padding-top: 50px;
+}
+
+.ways span {
+  color: white;
+}
+
+.pref-link {
+  display: flex;
+  padding-bottom: 200px;
+  margin-left: 70px;
+}
+
+.pref-link a {
+  margin: 0 18px;
+  text-transform: uppercase;
+  color: #dbdbdb;
+  text-decoration: none;
+}
+
+.pref-link a:hover {
+  color: #000;
+}
+
+.social-2 {
+  display: none;
+}
+
+.social-1 {
+  margin-left: -20px;
+  padding: 40px 0;
+}
+
+.social-1 .i {
+  margin: 0 10px;
+  color: #dbdbdb;
+}
+
+.registration {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 70px;
+  color: #dbdbdb;
+}
+
+.registration button {
+  position: relative;
+  left: 40px;
+  top: -20px;
+  background-color: transparent;
+  border: 1px solid #dbdbdb;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.registration button:hover {
+  background-color: #000;
+  border: #000;
+}
+
+.registration .i {
+  color: #000;
+  font-size: 20px;
+}
+
+.registration .i {
+  color: #adadad;
+}
+
+.copyright {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 0;
+  border-top: 1px solid #cccbcb;
+  color: #dbdbdb;
+}
+
+@media (max-width: 992px) {
+
+  .pref-first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .pref-first p {
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+
+  .passion {
+    max-width: 350px;
+  }
+
+  .ways p {
+    margin: 50px 0;
+  }
+
+  .pref-link {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #dbdbdb;
+    width: 93vw;
+    padding-top: 100px;
+    margin-bottom: -150px;
+    margin-left: 0;
+  }
+
+  .pref-link a {
+    display: flex;
+    padding-bottom: 60px;
+    margin: 0 50px;
+  }
+
+  .registration {
+    display: flex;
+    justify-content: flex-start;
+    border-top: 1px solid #dbdbdb;
+    width: 93vw;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  .registration button {
+    left: 140px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .registration .bxs-right-arrow-alt {
+    font-size: 25px;
+  }
+
+  .registration p {
+    font-size: 18px;
+    letter-spacing: 5px;
+    border: 1px;
+    width: 100px;
+  }
+
+  .social-1 {
+    display: none;
+  }
+
+  .social-2 {
+    border-top: 1px solid #dbdbdb;
+    width: 93vw;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+  }
+
+  .social-2 .i {
+    margin: 0 20px;
+    font-size: 30px;
+    color: #dbdbdb;
+  }
+
+  .copyright {
+    padding: 50px 0;
+    font-size: 20px;
+  }
+
+}

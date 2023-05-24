@@ -1,0 +1,115 @@
+#download {
+  overflow: hidden;
+  padding-top: 50px;
+}
+
+.sec-2 {
+  position: absolute;
+  background-color: #191a22;
+  height: 40vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+.sec-2-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-2-left h1 {
+  font-size: 50px;
+  color: #dbdbdb;
+}
+
+.sec-2-left p {
+  font-size: 20px;
+  color: #adadad;
+  letter-spacing: 1px;
+}
+
+.download {
+  display: flex;
+  margin-top: 70px;
+}
+
+.download p {
+  letter-spacing: 5px;
+}
+
+.sec-2-left button {
+  position: relative;
+  left: 40px;
+  top: -20px;
+  background-color: transparent;
+  border: 1px solid #dbdbdb;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.sec-2-left button:hover {
+  background-color: #000;
+  border: #000;
+}
+
+.sec-2-left button .i {
+  color: #dbdbdb;
+  font-size: 20px;
+}
+
+
+.sec-2-images {
+  display: flex;
+  position: relative;
+  top: -40px;
+}
+
+.sec-2-images img {
+  margin: 0 10px;
+}
+
+@media screen and (max-width: 960px) {
+
+  #download {
+    padding-bottom: 150px;
+  }
+
+  .sec-2 {
+    height: 80vh;
+  }
+
+  .sec-2-left {
+    align-items: start;
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+
+  .sec-2-left .lux p {
+    letter-spacing: 2px;
+  }
+
+  .sec-2-images {
+    top: -100px;
+  }
+
+  .sec-2-images img {
+    width: 150px;
+    height: 180px;
+  }
+
+  .download {
+    position: relative;
+    top: 220px;
+  }
+
+}
+
+@media screen and (max-width: 414px) {
+
+  .sec-2 {
+    height: 70vh;
+  }
+}

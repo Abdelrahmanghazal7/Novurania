@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Bantayog';
+}
+
+body {
+  background-color: #dbdbdb;
+  overflow-x: hidden;
+  /* cursor: none; */
+}
+
+.cursor {
+  position: absolute;
+  z-index: 9999999;
+  background-color: #221f1a;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  opacity: .9;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #9583a036;
+  box-shadow: 0 0 10px rgb(0, 0, 0) inset;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2b261a;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: black;
+}
+
+::selection {
+  background: #2b261a;
+  color: #000000;
+}
+
+@media (max-width:992px) {
+  .cursor {
+    display: none;
+  }
+}

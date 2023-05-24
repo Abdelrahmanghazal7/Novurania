@@ -1,0 +1,168 @@
+#slide {
+  overflow: hidden;
+  text-align: center;
+  padding-top: 80px;
+}
+
+#slide h1 {
+  font-size: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#slide p {
+  color: #3b3b1e;
+  letter-spacing: 2px;
+}
+
+.follow-2 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.follow-2 img {
+  height: 3px;
+  width: 100vw;
+}
+
+.follow-2 p {
+  white-space: nowrap;
+  padding: 0 30px;
+  margin-top: -10px;
+  color: #3b3b1e;
+  letter-spacing: 2px;
+}
+
+.above {
+  font-size: 20px;
+  position: relative;
+  top: 200px;
+  left: -110px;
+}
+
+#tired {
+  margin-top: 30px;
+}
+
+.caption {
+  font-size: 30px;
+  position: relative;
+  top: -70px;
+  left: -80px;
+  color: #dbdbdb;
+}
+
+.sec-3-discover {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  left: -100px;
+  margin-top: 60px;
+}
+
+.sec-3-discover p {
+  margin-right: 20px;
+  color: #3b3b1e;
+  letter-spacing: 2px;
+}
+
+.sec-3-discover button {
+  position: relative;
+  left: 10px;
+  top: -20px;
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.sec-3-discover button:hover {
+  background-color: #000;
+  border: #000;
+}
+
+.sec-3-discover button .i {
+  color: #000;
+  font-size: 20px;
+}
+
+.sec-3-discover button:hover .i {
+  color: #adadad;
+}
+
+#slide .slick-slider {
+  position: relative;
+  left: 400px;
+}
+
+#slide .slick-slider img {
+  padding-top: 200px;
+  cursor: pointer;
+}
+
+#slide .slick-prev:before,
+.slick-next:before {
+  font-size: 50px;
+  color: #000;
+}
+
+#slide .slick-prev {
+  top: 10%;
+  left: -200px;
+  margin: 0 650px;
+  z-index: 1;
+}
+
+#slide .slick-next {
+  top: 10%;
+  right: 100px;
+  margin: 0 650px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 960px) {
+
+  #slide .slick-slider {
+    left: 90px;
+  }
+
+  #slide .slick-slider img {
+    padding-top: 80px;
+  }
+
+  #slide .slick-prev:before,
+  .slick-next:before {
+    margin-left: -180px;
+  }
+
+  #slide .slick-prev {
+    left: -20px;
+  }
+
+  #slide .slick-next {
+    top: 0;
+    right: 30px;
+    margin: 0 100px;
+  }
+
+  #slide .slick-prev,
+  .slick-next {
+    top: 0;
+    margin: 0 150px;
+  }
+
+  .sec-3-discover {
+    justify-content: center;
+    left: 0px;
+  }
+
+  .above {
+    top: 70px;
+    font-size: 30px;
+  }
+
+}
