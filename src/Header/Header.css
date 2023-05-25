@@ -194,16 +194,6 @@ header {
 
 @media screen and (max-width: 414px) {
   header {
-    height: 120vh;
-  }
-
-  #scroll-btn {
-    bottom: -110px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  header {
     height: 140vh;
   }
 

@@ -326,7 +326,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 414px) {
 
   .input100 {
     padding: 0 15px;
