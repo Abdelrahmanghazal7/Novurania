@@ -6,7 +6,7 @@ import { CgArrowLongRight } from "react-icons/cg";
 
 const Header = ({ click }) => {
   return (
-    <header>
+    <header style={{backgroundImage: "url(images/michael-benz-unsplash-1.png)"}}>
       <Container className={click ? "head-lg" : "regular"}>
         <Row>
           <Col md={7} sm={5} xs={12} className="bannartext">

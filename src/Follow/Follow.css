@@ -53,3 +53,9 @@
   }
 
 }
+
+@media (max-width: 414px) {
+  #follow .slick-slider {
+    left: 0;
+  }
+}

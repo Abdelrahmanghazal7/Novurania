@@ -113,3 +113,10 @@
     height: 70vh;
   }
 }
+
+@media screen and (max-width: 320px) {
+
+  .sec-2 {
+    height: 95vh;
+  }
+}

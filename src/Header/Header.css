@@ -1,5 +1,4 @@
 header {
-  background-image: url("images/michael-benz-unsplash-1.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -200,5 +199,15 @@ header {
 
   #scroll-btn {
     bottom: -110px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  header {
+    height: 140vh;
+  }
+
+  #scroll-btn {
+    bottom: -200px;
   }
 }

@@ -185,3 +185,50 @@ footer {
   }
 
 }
+
+@media (max-width: 414px) {
+
+  .final-img {
+    width: 180px;
+  }
+  
+  .pref-first p {
+    font-size: 13px;
+  }
+
+  .ways {
+    padding-top: 20px;
+  }
+  
+  .pref-link {
+    width: 87vw;
+    padding-top: 90px;
+    margin-bottom: -170px;
+  }
+
+  .pref-link a {
+    margin: 0 40px;
+  }
+
+  .registration {
+    width: 87vw;
+  }
+
+  .registration button {
+    left: 100px;
+  }
+
+  .social-2 {
+    width: 87vw;
+  }
+
+  .social-2 .i {
+    font-size: 20px;
+  }
+
+  .copyright {
+    padding: 30px 0;
+    font-size: 15px;
+  }
+ 
+}

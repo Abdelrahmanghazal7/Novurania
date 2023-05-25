@@ -325,3 +325,14 @@ textarea {
     width: 330px;
   }
 }
+
+@media screen and (max-width: 320px) {
+
+  .input100 {
+    padding: 0 15px;
+  }
+
+  .contact__form-field {
+    width: 280px;
+  }
+}
